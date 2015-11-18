@@ -151,11 +151,11 @@ header {
 .homeText {
     color: white;
     text-align: center; 
-    font-size: 45px;
+    font-size: 3em;
     font-family: 'Tangerine', cursive;
     position: relative;
-    top: 37px;
-    text-shadow: 2px 2px black;
+    top: 1em;
+    text-shadow: .05em .05em black;
 }
 
 .centerContainer {
@@ -169,8 +169,8 @@ header {
 
 .getQuoteButton {
     position: relative;
-    top: 8px;
-    left: 420px;
+    top: 2em;
+    left: 17em;
     height: 100px;
     width: 500px;
     border-top: 1px solid #000000;

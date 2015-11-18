@@ -1,0 +1,17 @@
+<div class='authors'>
+    <h1 class='title'>Authors</h1>
+    <div class="width80 flex-row justify-center wrap">
+        <div class='authorsItem' ng-repeat='author in getAuthors'>
+
+            <a target="blank" href='{{author.url}}'><img class='authorImage' ng-src='{{author.photo}}' /></a>
+            <span><h!>{{author.name}}</h1></span>
+<!--
+            <div>
+                <span class="fa fa-thumbs-o-up fa-1x"></span>
+                <span class="fa fa-thumbs-o-down fa-1x"></span>
+            </div>
+-->
+        </div>
+    </div>
+        
+</div>

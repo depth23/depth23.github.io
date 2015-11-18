@@ -1,0 +1,521 @@
+* {
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+/*    outline: 1px solid yellow;*/
+}
+
+html {
+    height: 100%;
+/*    min-height: 900px;*/
+    width:100%;
+    
+}
+
+body {
+    height: 100%;
+/*    width:100%;*/
+    background: black; 
+}
+
+.fa {
+    color: #E3D3B8;
+    display: inline-block;
+}
+
+.fa:hover {
+    color: darkcyan;
+    background: none;
+}
+
+.fa:active {
+    color: white;
+    background: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.wrap {
+    padding-top: 170px;
+}
+
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+/*    height: 15%;*/
+    width: 100%;
+/*    border: 2px solid yellow;*/
+    background: black;
+/*    margin-top: -70px;*/
+    
+}
+
+header {
+    border-bottom: 2px solid #E3D3B8;
+
+}
+
+.headerTitle {
+/*    height: 75%;*/
+/*    width: 500px;*/
+/*    border: 2px solid red;*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    left: 46%;*/
+/*
+    margin-left: -15%;
+    margin-bottom: -90px;
+*/
+    text-align: center;
+/*    background: black;*/
+    color: #E3D3B8;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 4px 4px rgba(245,233,245,0.51);
+}
+
+.headerTitle h1 {
+    margin: 0;
+}
+
+.header-bottom {
+    height: 10px;
+    background: black;
+    border-bottom: 4px solid #E3D3B8;
+}
+
+.navBar {
+    height: 0em;
+    width: 3.9em; 
+    display: inline-block;
+    color: #E3D3B8;
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    opacity: .65;
+    text-shadow: 1px 1px rgba(245,233,245,0.51);
+}
+
+.navBar:hover {
+   background: black;
+   color: darkcyan;
+}
+
+.navBar:active {
+   color: white;
+   background: black;
+}
+
+.headerLinks {
+    display: inline-block; 
+    width: 136px;
+    margin-left: 44px;
+}
+
+#headerLinkCluster {
+    
+}
+
+.search {
+    height: 20px;
+    width: 120px;
+}
+
+.backgroundContainer {
+/*    color: #E3D3B8;*/
+/*    height: 100%;*/
+    min-height: 800px;
+    background-image: url('https://c1.staticflickr.com/5/4056/4291142626_30f9e91c80_b.jpg'
+);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+/*    margin-top: -40px;*/
+/*    margin-bottom: -5px;*/
+/*    border: 2px solid orange;*/
+}
+
+.homeText {
+    color: white;
+    text-align: center; 
+    font-size: 45px;
+    font-family: 'Tangerine', cursive;
+    position: relative;
+    top: 37px;
+    text-shadow: 2px 2px black;
+}
+
+.centerContainer {
+    height: 28%;
+    width: 76%;
+/*    border: 2px solid blue;*/
+    position: relative;
+    top: 30%;
+    left: 253px;
+}
+
+.getQuoteButton {
+    position: relative;
+    top: 8px;
+    left: 420px;
+    height: 100px;
+    width: 500px;
+    border-top: 1px solid #000000;
+    background: #02b036;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(darkcyan));
+    background: -webkit-linear-gradient(top, white, darkcyan);
+    background: -moz-linear-gradient(top, white, darkcyan);
+    background: -ms-linear-gradient(top, white, darkcyan);
+    background: -o-linear-gradient(top, white, darkcyan);
+    padding: 20px 40px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    opacity: .85;
+}
+
+.getQuoteButton:hover {
+   border-top-color: #b2bfb4;
+   background: #b2bfb4;
+   color: #ffffff;
+}
+
+.getQuoteButton:active {
+   border-top-color: #218c25;
+   background: #218c25;
+}
+
+.time {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    margin-top: 150px;
+    color: white;
+}
+
+.footer {
+/*    height: 12%;*/
+    width: 100%;
+/*    border: 2px solid yellow;*/
+    display: block;
+    background: black;
+    text-decoration: none;
+    border-top: 2px solid #E3D3B8;
+/*    margin-top: -11px;*/
+}
+
+.footerItem {
+    height: 22%;
+    width: 33%;
+    display: inline-block;
+/*    border: 2px solid green;*/
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+    align-content: center;
+}
+
+.footerItem:hover {
+    background: black;
+    color: darkcyan;
+}
+
+.footerItem:active {
+    color: white;
+    background: black;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.ng-modal-overlay {
+  /* A dark translucent div that covers the whole screen */
+  position:absolute;
+  z-index:9999;
+  top:43%;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:#000000;
+  opacity: 0.8;
+}
+
+.ng-modal-dialog {
+  /* A centered div above the overlay with a box shadow. */
+    z-index:10000;
+    position: absolute;
+    width: 50%; /* Default */
+    height: 100%;
+    /* Center the dialog */
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 4px 4px 80px #000;
+}
+
+.ng-modal-dialog-content {
+    padding:10px;
+    text-align: center;
+}
+
+.ng-modal-close {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 120%;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'arial', 'sans-serif';
+}
+
+.aboutUs {
+    height: 100%;
+    background: black;
+    background-image: url(http://static.tumblr.com/bf4c92b6b9b217d3cf76e8ca51aefc00/xyrewae/rCRmvhg5w/tumblr_static_library-background4.jpg);   
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white;  
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+}
+
+.authors {
+    height: 100%;
+    background: black;
+    background-image: url(http://darkrenaissance.com/wp-content/uploads/2013/04/drbimage.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.authorsItem {
+    height: 290px;
+    width: 220px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    -webkit-box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
+    -moz-box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
+    box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
+    text-shadow: 1px 1px black;
+}
+
+.authorImage {
+    height: 290px;
+    width: 220px;
+    border: 10px outset #E3D3B8;
+}
+
+.authorImage:hover {
+    color: darkcyan;
+    background: black;
+    height: 300px;
+    width: 230px;
+    opacity: .50;
+}
+
+.authorImage:active {
+    color: white;
+    background: black;
+    height: 310px;
+    width: 240px;
+    opacity: .80;
+}
+
+.classics {
+    height: 100%;
+    background: black;
+    background-image: url(http://i01.i.aliimg.com/wsphoto/v0/2048175971/8x12FT-Backdrop-Customize-Photography-Studio-Background-Curtain-Book-Shelf-Cupboard-Wedding-Portrait-Carpet-Wooden-Floor-Vinyl.jpg);
+    background-size: auto;
+    background-repeat:repeat-x; 
+    background-attachment: fixed;
+/*    align-content: center;*/
+}
+
+.classicsContainer {
+  position: relative;
+  left: 10.5em;
+  width: 75%;
+}
+
+.classicsItem {
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 4em;
+    font-family: 'Tangerine', cursive;
+    
+}
+
+.bookImage {
+    height: 4em;
+    width: 3em;
+}
+
+.bookImage:hover {
+    height: 5em;
+    width: 4em;
+    color: darkcyan;
+    background: black;
+    opacity: .50;
+}
+
+.bookImage:active {
+    height: 4em;
+    width: 3em;
+    color: white;
+    background: black;
+    opacity: .85;
+}
+
+.quotes {
+    height: 100%;
+    background: black;
+    background-image: url(http://favim.com/orig/201108/19/book-shelves-books-dark-grain-library-Favim.com-126359.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    text-align: center;
+    text-shadow: 4px 4px rgba(245,233,245,0.51);
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.quoteText {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-shadow: 2px 2px black;
+}
+
+.contactUs {
+    height: 100%;
+    min-height: 800px;
+    background: black;
+    background-image: url(http://knowledgelost.files.wordpress.com/2011/07/cimg0491-oldbooks-02-q75-1932x1089.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.outerForm {
+    heitht: 70%;
+    width: 50%;
+    background: black;
+    opacity: .85;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left:28%;
+    top:60%;
+    top:60%;
+}
+
+.innerForm {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    height: 75%;
+    width: 75%;
+    background: #E3D3B8;
+    display: block;
+    
+}
+
+.formName {
+  text-align: center;
+  display: block;
+}
+
+.innerFormElement {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.formSubmit {
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}

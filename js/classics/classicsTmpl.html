@@ -1,0 +1,20 @@
+<div class='classics'>
+    <h1 class='title'>Classics</h1>
+    <div class="classicsContainer">
+    <div class='classicsItem' ng-repeat='book in getBook'>
+        <a target="blank" href='{{book.Amazon}}'><img class='bookImage' ng-src='{{book.image}}' /></a>
+      <div class="">  
+          <b>{{book.Book}}</b>  
+        <br />
+          - {{book.Author}}
+      </div>  
+    </div>  
+<!--
+        <div>
+            <span class="fa fa-thumbs-o-up fa-1x"></span>
+            <span class="fa fa-thumbs-o-down fa-1x"></span>
+        </div>
+-->
+    </div>
+</div>
+

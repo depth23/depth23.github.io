@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html ng-app='quoteApp'>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <title>Inspaquote</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-route.js'></script>
+</head>
+<body ng-controller="quoteCtrl">
+    <div class='container'>
+        <div class="header">
+        <header>
+            <div class='headerTitle'><h1><i>Inspaquote</i></h1></div>
+            <nav>
+                <h1 class='navBar'><a href="#/">Home</a></h1>
+                <h1 class='navBar'><a href="#/authors">Authors</a></h1>
+                <h1 class='navBar'><a href="#/classics">Classics</a></h1>
+                <h1 class='navBar'><a href="#/quotes">Quotes</a></h1>
+                <h1 class='navBar'><a href="#/aboutUs">AboutUs</a></h1>
+                <h1 class='navBar'><a href="#/contactUs">ContactUs</a></h1>
+<!--
+                <i class="fa fa-search fa-1x"></i>
+                <input type='text' ng-model='search.$' class='search' placeholder='Search...'></input>
+-->
+                <div class='headerLinks'>
+                    <a href='https://www.facebook.com/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Facebook"></i> 
+                            <i class="fa fa-facebook fa-stack-1x" title="Facebook"></i>
+                        </span>
+                    </a>
+                    <a href='https://instagram.com/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Instagram"></i> 
+                            <i class="fa fa-instagram fa-stack-1x" title="Instagram"></i>
+                        </span>
+                    </a>
+                    <a href='https://twitter.com/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Twitter"></i>
+                          <i class="fa fa-twitter fa-stack-1x" title="Twitter"></i>
+                        </span>
+                    </a>
+                    <a href='https://www.wikipedia.org/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Wikipedia"></i>
+                            <i class="fa fa-wikipedia-w fa-stack-1x" title="Wikipedia"></i>
+                        </span>
+                    </a>
+                    <a href='https://amazon.com/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Amazon"></i>
+                            <i class="fa fa-amazon fa-stack-1x" title="Amazon"></i>
+                        </span>
+                    </a>
+                     <a href='https://tumblr.com/'>
+                        <span id='headerIcons' class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Tumblr"></i>
+                            <i class="fa fa-tumblr-square fa-stack-1x" title="Tumblr"></i>
+                        </span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div class="header-bottom"></div>
+    </div>
+        <div class='backgroundContainer wrap'>
+          <ng-view>
+            <div ng-model="" ng-repeat="quoteObj in quoteSource | filter: Search">
+              <span>{{quoteObj.image}}</span>
+              <span>{{quoteObj.book}}</span>
+              <span>{{quoteObj.author}}</span>
+              <span>{{quoteObj.quote}}</span>
+            </div>
+          </ng-view>
+        </div>
+        <footer class='footer'>
+            <h1 class='footerItem'>
+                <a href=''  ng-click='toggleModal()'>copyright</a>
+                <copyright-directive show='modalShown'>       
+                    <p>Copyright Information<br />
+                        <br />
+                        I do not own anything.<br />
+                        <br />
+                        Please don't sue me.<br />
+                        <br/>
+                        Thank you!
+                        <img src='http://bookhaven.stanford.edu/wp-content/uploads/2013/02/vd.jpeg' />
+                    </p>
+                </copyright-directive>
+            </h1>
+                <h1 class='footerItem'>
+                    <a  ng-hide="sitemap">sitemap</a>
+                        <select ng-show="sitemap">
+                            <option><a href='#/'><ul>Home</ul></a></option>
+                            <option><a href='#/authors'><ul>Authors</ul></a></option>
+                            <option><a href='#/classics'><ul>Classics</ul></a></option>
+                            <option><a href='#quotes'><ul>Quotes</ul></a></option>
+                            <option><a href='#/aboutUs'><ul>About Us</ul></a></option>
+                            <option><a href='#/contactUs'><ul>Contact Us</ul></a></option>
+                        </select>   
+                </h1>
+                <h1 class='footerItem'><a href='#/contactUs/'>contact</a></h1>
+<!--                <h1 class='footerItem'><a href=''>to top</a></h1>-->
+                <br />
+                <div class='footerLinks'>
+                    <a href='https://www.facebook.com/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Facebook"></i> 
+                            <i class="fa fa-facebook fa-stack-1x" title="Facebook"></i>
+                        </span>
+                    </a>
+                    <a href='https://instagram.com/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Instagram"></i> 
+                            <i class="fa fa-instagram fa-stack-1x" title="Instagram"></i>
+                        </span>
+                    </a>
+                    <a href='https://twitter.com/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Twitter"></i>
+                          <i class="fa fa-twitter fa-stack-1x" title="Twitter"></i>
+                        </span>
+                    </a>
+                    <a href='https://www.wikipedia.org/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Wikipedia"></i>
+                            <i class="fa fa-wikipedia-w fa-stack-1x" title="Wikipedia"></i>
+                        </span>
+                    </a>
+                    <a href='https://amazon.com/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Amazon"></i>
+                            <i class="fa fa-amazon fa-stack-1x" title="Amazon"></i>
+                        </span>
+                    </a>
+                    <a href='https://tumblr.com/'>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-square-o fa-stack-2x" title="Tumblr"></i>
+                            <i class="fa fa-tumblr-square fa-stack-1x" title="Tumblr"></i>
+                        </span>
+                    </a>
+                </div>
+        </footer>
+    </div>
+    <script src="js/quoteApp.js"></script>
+    <script src='quoteCtrl.js'></script>
+    <script src="js/quoteService.js"></script>
+    <script src='js/home/homeCtrl'></script>
+    <script src='js/authors/authorsCtrl.js'></script>
+    <script src="js/authors/authorsService.js"></script>
+    <script src='js/classics/classicsCtrl.js'></script>
+    <script src='js/quotes/quotesCtrl.js'></script>
+    <script src='js/aboutUs/aboutUsCtrl.js'></script>
+    <script src='js/contactUs/contactUsCtrl.js'></script>
+    <script src="js/timeDirective.js"></script>
+    <script src="js/copyright/copyrightDirective.js"></script>
+</body>
+</html>

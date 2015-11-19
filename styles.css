@@ -453,7 +453,7 @@ header {
 }
 
 .outerForm {
-    heitht: 70%;
+    heitht: 85%;
     width: 50%;
     background: black;
     opacity: .85;
@@ -468,7 +468,7 @@ header {
 .innerForm {
     font-family: 'Tangerine', cursive;
     font-size: 35px;
-    height: 75%;
+    height: 100%;
     width: 75%;
     background: #E3D3B8;
     display: block;

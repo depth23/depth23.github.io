@@ -453,7 +453,7 @@ header {
 }
 
 .outerForm {
-    height: 70%;
+    height: 55%;
     width: 50%;
     background: black;
     opacity: .85;
@@ -461,7 +461,7 @@ header {
     justify-content: center;
     position: relative;
     left:28%;
-    top:25%;
+    top:37%;
 }
 
 .innerForm {

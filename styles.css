@@ -15,6 +15,7 @@ html {
 body {
     height: 100%;
 /*    width:100%;*/
+  max-width: 85em;
     background: black; 
 }
 
@@ -228,7 +229,7 @@ header {
 
 .footerItem {
     height: 22%;
-    width: 33%;
+    width: 49%;
     display: inline-block;
 /*    border: 2px solid green;*/
     text-align: center;
@@ -271,7 +272,7 @@ header {
     z-index:10000;
     position: absolute;
     width: 50%; /* Default */
-    height: 65%;
+    height: 13em;
     /* Center the dialog */
     top: 96%;
     left: 50%;

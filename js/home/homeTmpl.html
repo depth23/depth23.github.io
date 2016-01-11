@@ -1,23 +1,24 @@
 <div>
-    <h3 class='homeText' ng-show="!details">Start your day off right with Inspaquote
-        <br />
-        <br />
-        Your inspirational quotes
-        <br />
-        <br />
-        taken from classic literature!
-    </h3>
-
-    <h3 class='homeText' ng-show="details">
-        <a href='#/quotes'>- {{details.Quote}}</a>
-        <br />
-        <a href='#/classics'>- {{details.Book}} -</a>
-        <br />
-       <a href='#/authors'>- {{details.Author}} -</a>
-        <br />
-    </h3>
-    <button class='getQuoteButton' ng-click="getQuote()">Get Your Quote!</button>
+  <h3 class='homeText' ng-show="!details">Start your day off right with Inspaquote
     <br />
     <br />
-    <h3 class='time'><show-time class='time'></show-time></h3>
+    Your inspirational quotes
+    <br />
+    <br />
+    taken from classic literature!
+  </h3>
+  <h3 class='homeText' ng-show="details">
+    <a href='#/quotes'>- {{details.Quote}}</a>
+    <br />
+    <br />
+    <a href='#/classics'>- {{details.Book}} -</a>
+    <br />
+    <br />
+    <a href='#/authors'>- {{details.Author}} -</a>
+    <br />
+  </h3>
+  <button class='getQuoteButton' ng-click="getQuote()">Get Your Quote!</button>
+  <br />
+  <br />
+  <h3 class='time'><show-time></show-time></h3>
 </div>

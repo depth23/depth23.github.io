@@ -4,7 +4,7 @@ Live @ depth23.github.io/
 
 ###General Info
 -------------------------------------------
-Inspaquote is a gateway to classic literature.
+Inspaquote is an app to bring classical literature to people in an uplifting and educational way by providing an inspirational quote along with access to information about books and authors as well as creating a portal to allow purchasing of books.
 
 ###Purpose
 -------------------------------------------

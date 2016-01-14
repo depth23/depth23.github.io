@@ -303,9 +303,12 @@ header {
 }
 
 .about-us-text {
-  font-size: 4.5em;
+  height: 80%;
+  width: 100%;
+  font-size: 2em;
   font-family: monospace;
   line-height: 165%;
+  margin: -1em 0em 0em 0em;
 }
 
 /*Authors Page*/

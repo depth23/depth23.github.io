@@ -135,7 +135,7 @@ header {
   font-size: 3.5em;
   font-family: 'Tangerine', cursive;
   position: absolute;
-  top: 0em;
+  top: 3em;
   right: 50%;
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
@@ -186,7 +186,7 @@ header {
   height: 1em;
   width: 10em;
   position: relative;
-  top: 2em;
+  top: 12.25em;
   left: 50%;
   transform: translate(-50%, 0%);
   text-align: center;

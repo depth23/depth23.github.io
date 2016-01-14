@@ -63,6 +63,7 @@ header {
   font-size: 50px;
   font-family: 'Tangerine', cursive;
   text-shadow: 4px 4px rgba(245,233,245,0.51);
+  margin-top: -1.25em
 }
 
 .header-bottom {
@@ -72,7 +73,7 @@ header {
 }
 
 .nav {
-  height: 6em;
+  height: 4em;
   width: 100%;
   text-align: center;
 }
@@ -84,7 +85,7 @@ header {
   top: -0.6em;
     display: inline-block;
     color: #E3D3B8;
-    font-size: 4.5em;
+    font-size: 3em;
     font-family: 'Tangerine', cursive;
     text-align: center;
     text-shadow: 3px 3px rgba(245,233,245,0.51);
@@ -107,7 +108,7 @@ header {
   position: relative;
   top: -2em;
   margin-left: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .search {
@@ -131,22 +132,22 @@ header {
 .homeText {
   color: white;
   text-align: center; 
-  font-size: 5em;
+  font-size: 3.5em;
   font-family: 'Tangerine', cursive;
   position: absolute;
-  top: 5em;
+  top: 0em;
   right: 50%;
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
 }
 
 .getQuoteButton {
-  height: 3em;
-  width: 10em;
+  height: 2.5em;
+  width: 7em;
   position: absolute;
   top: 14em;
-  right: 50%;
-  transform: translate(50%, 0%);  
+  left: 50%;
+  transform: translate(-50%, 0%);  
   border-top: 1px solid #000000;
   background: #02b036;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(darkcyan));
@@ -163,10 +164,10 @@ header {
   box-shadow: rgba(0,0,0,1) 0 1px 0;
   text-shadow: rgba(0,0,0,.4) 0 1px 0;
   color: white;
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Tangerine', cursive;
   text-decoration: none;
-  vertical-align: middle;
+/*  vertical-align: middle;*/
   opacity: .85;
 }
 
@@ -184,13 +185,13 @@ header {
 .time {
   height: 1em;
   width: 10em;
-  position: absolute;
-  top: 19em;
-  right: 50%;
-  transform: translate(50%, 0%);
+  position: relative;
+  top: 2em;
+  left: 50%;
+  transform: translate(-50%, 0%);
   text-align: center;
   font-family: 'Tangerine', cursive;
-  font-size: 5em;
+  font-size: 3em;
   color: white;
 }
 
@@ -205,14 +206,14 @@ header {
 
 .footerItem {
     height: 1.5em;
-    width: 49.9%;
+    width: 49%;
   position: relative;
-  top: =0.4em;
+  top: -0.4em;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     color: gray;
-    font-size: 5em;
+    font-size: 3em;
     font-family: 'Tangerine', cursive;
     align-content: center;
 }
@@ -234,7 +235,7 @@ header {
   top: -3.5em;
   display: inline-block;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .ng-modal-overlay {

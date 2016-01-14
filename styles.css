@@ -46,7 +46,7 @@ body {
 }
 
 .header {
-  height: 12.7em;
+  height: 12.28em;
   width: 100%;
   background: black;    
 }
@@ -120,7 +120,7 @@ header {
 /*---------*/
 
 .backgroundContainer {
-  height: 88%;
+  height: 100%;
   width: 100%;
   background-image: url('https://c1.staticflickr.com/5/4056/4291142626_30f9e91c80_b.jpg');
   background-size: cover;
@@ -298,6 +298,7 @@ header {
     background-attachment: fixed;
     color: white;  
     text-align: center;
+  margin: -1.64em 0em 0em 0em;
 /*    font-size: 30px;*/
 /*    font-family: 'Tangerine', cursive;*/
 }
@@ -469,30 +470,31 @@ header {
 
 .contactUs {
     height: 100%;
-    min-height: 800px;
   width: 100%;
     background: black;
     background-image: url(http://knowledgelost.files.wordpress.com/2011/07/cimg0491-oldbooks-02-q75-1932x1089.jpg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
+  margin: -1.64em 0em 0em 0em;
 }
 
 .contact-us-container {
   height: 100%;
   width: 100%;
+  
 }
 
 .outerForm {
-    height: 52em;
-    width: 65em;
+    height: 36em;
+    width: 50em;
     background: black;
     opacity: .85;
 /*    display: flex;*/
 /*    justify-content: center;*/
     position: relative;
    margin: 0 auto;
-  top: 9em;
+  top: 0em;
   border: 0.5em solid #E3D3B8;
 }
 
@@ -500,10 +502,10 @@ header {
   height: 75%;
   width: 75%;
   position: relative;
-  top: 50%;
-  transform: translate(0%, -57%);
+  top: 46%;
+  transform: translate(0%, -50%);
     font-family: 'Tangerine', cursive;
-    font-size: 3em;
+    font-size: 1.8em;
     background: #E3D3B8;
     display: block;
     margin: 0 auto;

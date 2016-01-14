@@ -130,6 +130,8 @@ header {
 }
 
 .homeText {
+  height: 5em;
+  width: 75%;
   color: white;
   text-align: center; 
   font-size: 3.5em;
@@ -139,13 +141,14 @@ header {
   right: 50%;
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
+  line-height: 135%;
 }
 
 .getQuoteButton {
   height: 2.5em;
   width: 7em;
   position: absolute;
-  top: 14em;
+  top: 13.5em;
   left: 50%;
   transform: translate(-50%, 0%);  
   border-top: 1px solid #000000;

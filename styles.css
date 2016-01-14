@@ -452,15 +452,12 @@ header {
 }
 
 .quoteText {
-  width: 100%;
+  width: 95%;
   font-family: 'Tangerine', cursive;
     font-size: 3em;
     text-align: center;
   text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 15px;
+    margin: 0 auto;
     text-shadow: 2px 2px black;
 }
 

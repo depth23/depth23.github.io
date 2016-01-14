@@ -79,36 +79,44 @@ header {
 
 .navBar {
     height: 100%;
-    width: 3.9em; 
+    width: 3.9em;
+  position: relative;
+  top: -0.6em;
     display: inline-block;
     color: #E3D3B8;
-    font-size: 3em;
+    font-size: 4.5em;
     font-family: 'Tangerine', cursive;
     text-align: center;
-    opacity: .65;
-    text-shadow: 1px 1px rgba(245,233,245,0.51);
+    text-shadow: 3px 3px rgba(245,233,245,0.51);
 }
 
 .navBar:hover {
-  background: black;
+  background: none;
   color: darkcyan;
 }
 
 .navBar:active {
   color: white;
-  background: black;
+  background: none;
 }
 
 .headerLinks {
-  display: inline-block; 
-  width: 8em;
+  display: inline-block;
+  height: 5em;
+  width: 9em;
+  position: relative;
+  top: -2em;
   margin-left: 2em;
+  font-size: 1.5em;
 }
 
 .search {
   height: 20px;
   width: 120px;
 }
+
+/*Home Page*/
+/*---------*/
 
 .backgroundContainer {
   height: 88%;
@@ -123,20 +131,20 @@ header {
 .homeText {
   color: white;
   text-align: center; 
-  font-size: 3em;
+  font-size: 5em;
   font-family: 'Tangerine', cursive;
   position: absolute;
-  top: 10em;
+  top: 5em;
   right: 50%;
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
 }
 
 .getQuoteButton {
-  height: 100px;
-  width: 500px;
+  height: 3em;
+  width: 10em;
   position: absolute;
-  top: 19em;
+  top: 14em;
   right: 50%;
   transform: translate(50%, 0%);  
   border-top: 1px solid #000000;
@@ -155,7 +163,7 @@ header {
   box-shadow: rgba(0,0,0,1) 0 1px 0;
   text-shadow: rgba(0,0,0,.4) 0 1px 0;
   color: white;
-  font-size: 3em;
+  font-size: 5em;
   font-family: 'Tangerine', cursive;
   text-decoration: none;
   vertical-align: middle;
@@ -177,35 +185,34 @@ header {
   height: 1em;
   width: 10em;
   position: absolute;
-  top: 22em;
+  top: 19em;
   right: 50%;
   transform: translate(50%, 0%);
   text-align: center;
   font-family: 'Tangerine', cursive;
-  font-size: 3em;
+  font-size: 5em;
   color: white;
 }
 
 .footer {
-/*    height: 12%;*/
+    height: 14em;
     width: 100%;
-/*    border: 2px solid yellow;*/
     display: block;
     background: black;
     text-decoration: none;
     border-top: 2px solid #E3D3B8;
-/*    margin-top: -11px;*/
 }
 
 .footerItem {
-    height: 22%;
-    width: 49%;
+    height: 1.5em;
+    width: 49.9%;
+  position: relative;
+  top: =0.4em;
     display: inline-block;
-/*    border: 2px solid green;*/
     text-align: center;
     text-decoration: none;
     color: gray;
-    font-size: 3em;
+    font-size: 5em;
     font-family: 'Tangerine', cursive;
     align-content: center;
 }
@@ -223,8 +230,11 @@ header {
 .footerLinks {
   height: 2.5em;
   width: 100%;
+  position: relative;
+  top: -3.5em;
   display: inline-block;
   text-align: center;
+  font-size: 2em;
 }
 
 .ng-modal-overlay {
@@ -272,6 +282,9 @@ header {
     font-family: 'arial', 'sans-serif';
 }
 
+/*About Us page*/
+/*-------------*/
+
 .aboutUs {
     height: 100%;
     background: black;
@@ -281,86 +294,109 @@ header {
     background-attachment: fixed;
     color: white;  
     text-align: center;
-    font-size: 30px;
-    font-family: 'Tangerine', cursive;
+/*    font-size: 30px;*/
+/*    font-family: 'Tangerine', cursive;*/
 }
+
+.about-us-text {
+  font-size: 4.5em;
+  font-family: monospace;
+  line-height: 165%;
+}
+
+/*Authors Page*/
+/*============*/
 
 .authors {
     height: 100%;
     background: black;
     background-image: url(http://darkrenaissance.com/wp-content/uploads/2013/04/drbimage.jpg);
-    background-size: 100% 100%; 
+    background-size: cover;
+  background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+  overflow: overlay;
 }
 
 .authorsItem {
-    height: 290px;
-    width: 220px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Tangerine', cursive;
-    color: white;
+    height: 14em;
+    width: 9em;
     display:flex;
     flex-direction: column;
-    margin: 100px 50px;
-    -webkit-box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
-    -moz-box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
-    box-shadow: -1px 0px 93px 65px rgba(245,233,245,0.51);
-    text-shadow: 1px 1px black;
+    margin: 5em 2em;
+    -webkit-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+    -moz-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+    box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+  margin: 2em 3em 13em 3em;
 }
 
 .authorImage {
-    height: 290px;
-    width: 220px;
-    border: 10px outset #E3D3B8;
+    height: 14em;
+    width: 9em;
+    border: 0.75em outset #E3D3B8;
 }
 
 .authorImage:hover {
     color: darkcyan;
-    background: black;
-    height: 300px;
-    width: 230px;
+    background: none;
+    height: 14.25em;
+    width: 9.25em;
     opacity: .50;
 }
 
 .authorImage:active {
     color: white;
-    background: black;
-    height: 310px;
-    width: 240px;
+    background: none;
+    height: 14.5em;
+    width: 9.5em;
     opacity: .80;
 }
 
+.author-name {
+  height: 100%;
+  width: 100%;
+  font-size: 1.64em;
+  font-family: 'Tangerine', cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 0.1em 0.1em black;
+}
+
+/*Classics Page*/
+/*-------------*/
+
 .classics {
     height: 100%;
+  width: 100%;
     background: black;
     background-image: url(http://i01.i.aliimg.com/wsphoto/v0/2048175971/8x12FT-Backdrop-Customize-Photography-Studio-Background-Curtain-Book-Shelf-Cupboard-Wedding-Portrait-Carpet-Wooden-Floor-Vinyl.jpg);
-    background-size: auto;
-    background-repeat:repeat-x; 
-    background-attachment: fixed;
+    background-size: 83% 100%;
+    background-repeat:repeat-x;
+  overflow: overlay;
+/*    background-attachment: fixed;*/
 /*    align-content: center;*/
 }
 
 .classicsContainer {
+  height: inherit;
+  width: 50%;
   position: relative;
-  left: 10.5em;
-  width: 75%;
+  margin: 0 auto;
+  
 }
 
 .classicsItem {
-    width: 90%;
+  height: 4em;
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 2em 2em 3em 2em;
     font-size: 4em;
     font-family: 'Tangerine', cursive;
-    
+    text-align: right;
 }
 
 .bookImage {
@@ -384,20 +420,24 @@ header {
     opacity: .85;
 }
 
+/*Quotes Page*/
+/*___________*/
+
 .quotes {
     height: 100%;
     background: black;
     background-image: url(http://favim.com/orig/201108/19/book-shelves-books-dark-grain-library-Favim.com-126359.jpg);
-    background-size: 100% 100%; 
+    background-size: cover; 
     background-repeat: no-repeat; 
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
+  background-position: center;
     color: white;
-    font-family: 'Tangerine', cursive;
-    font-size: 45px;
-    text-align: center;
+    
+  overflow: overlay;
 }
 
 .title {
+  width: 100%;
     color: white;
     font-family: 'Tangerine', cursive;
     font-size: 75px;
@@ -408,6 +448,11 @@ header {
 }
 
 .quoteText {
+  width: 100%;
+  font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    text-align: center;
+  text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 10px;
@@ -415,36 +460,57 @@ header {
     text-shadow: 2px 2px black;
 }
 
+/*Contact Us Page*/
+/*---------------*/
+
 .contactUs {
     height: 100%;
     min-height: 800px;
+  width: 100%;
     background: black;
     background-image: url(http://knowledgelost.files.wordpress.com/2011/07/cimg0491-oldbooks-02-q75-1932x1089.jpg);
-    background-size: 100% 100%; 
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
 
+.contact-us-container {
+  height: 100%;
+  width: 100%;
+}
+
 .outerForm {
-    height: 55%;
-    width: 50%;
+    height: 52em;
+    width: 65em;
     background: black;
     opacity: .85;
-    display: flex;
-    justify-content: center;
+/*    display: flex;*/
+/*    justify-content: center;*/
     position: relative;
-    left:28%;
-    top:37%;
+   margin: 0 auto;
+  top: 9em;
+  border: 0.5em solid #E3D3B8;
 }
 
 .innerForm {
+  height: 75%;
+  width: 75%;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -57%);
     font-family: 'Tangerine', cursive;
-    font-size: 35px;
-    height: 100%;
-    width: 75%;
+    font-size: 3em;
     background: #E3D3B8;
     display: block;
-    
+    margin: 0 auto;
+  
+}
+
+.inner-form-text-container {
+  height: 13.5em;
+  width: 100%;
+  position: relative;
+  top: 0.5em;
 }
 
 .formName {
@@ -462,6 +528,9 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+/*All*/
+/*---*/
 
 .flex-row {
     display: flex;

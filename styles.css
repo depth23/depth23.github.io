@@ -298,7 +298,7 @@ header {
     background-attachment: fixed;
     color: white;  
     text-align: center;
-  margin: -1.64em 0em 0em 0em;
+  margin: -1.2em 0em 0em 0em;
 /*    font-size: 30px;*/
 /*    font-family: 'Tangerine', cursive;*/
 }
@@ -442,6 +442,7 @@ header {
     color: white;
     
   overflow: overlay;
+  margin: -0.6em 0em 0em 0em;
 }
 
 .title {
@@ -476,7 +477,7 @@ header {
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-  margin: -1.64em 0em 0em 0em;
+  margin: -1.22em 0em 0em 0em;
 }
 
 .contact-us-container {

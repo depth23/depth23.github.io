@@ -4,7 +4,7 @@ app.service('quoteService', function() {
 
 var quoteSource = [
     {
-        image: 'https://d.gr-assets.com/books/1361975680s/2657.jpg',
+        image: '../../img/To-Kill-A-Mockingbird.jpg',
         Book: 'To Kill A Mocking Bird',
         Author: 'Harper Lee',
         Quote: '"You never understand a person until you consider things from his point of view… until you climb into his skin and walk around in it."',

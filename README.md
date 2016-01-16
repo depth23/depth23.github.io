@@ -1,5 +1,8 @@
 # Inspaquote
-|Still in progress|Adding media queries|Adding cross-platform compatibillity| 
+|Still|In||Progress|
+|-------|-------|
+|Adding media queries|
+|Adding cross-platform compatibillity| 
 
 Live @ depth23.github.io/
 
@@ -29,4 +32,4 @@ User can get a random inspirational quote taken from classic literature as well 
 
 ###Sole Contributer
 -------------------------------------------
-* Deon Sharps,
+* Deon Sharps

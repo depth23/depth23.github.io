@@ -74,7 +74,7 @@ var quoteSource = [
         Amazon: 'http://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X/ref=sr_1_1?s=books&ie=UTF8&qid=1442962984&sr=1-1&keywords=the+hobbit'
     },
     {
-        image: '../../img/A-Cristmas-Carol.jpg',
+        image: '../../img/A-Christmas-Carol.jpg',
         Book: 'A Christmas Carol',
         Author: 'Charles Dickens',
         Quote: '"There is nothing in the world so irresistibly contagious as laughter and good humor."',

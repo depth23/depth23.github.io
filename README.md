@@ -1,5 +1,5 @@
 # Inspaquote
-|Still|In||Progress|
+|Still In Progress|
 |-------|-------|
 |Adding media queries|
 |Adding cross-platform compatibillity| 

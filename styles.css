@@ -379,8 +379,9 @@ header {
   width: 100%;
     background: black;
     background-image: url(http://i01.i.aliimg.com/wsphoto/v0/2048175971/8x12FT-Backdrop-Customize-Photography-Studio-Background-Curtain-Book-Shelf-Cupboard-Wedding-Portrait-Carpet-Wooden-Floor-Vinyl.jpg);
-    background-size: 83% 100%;
-    background-repeat:repeat-x;
+    background-size: 100% 141%;
+  background-position: 0% 5%;
+    background-repeat: no-repeat;
   overflow: overlay;
 /*    background-attachment: fixed;*/
 /*    align-content: center;*/

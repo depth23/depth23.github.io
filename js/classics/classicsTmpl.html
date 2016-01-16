@@ -4,9 +4,9 @@
     <div class='classicsItem' ng-repeat='book in getBook'>
         <a target="blank" href='{{book.Amazon}}'><img class='bookImage' ng-src='{{book.image}}' /></a>
       <div class="">  
-          <b>{{book.Book}}</b>  
+          <a target="blank" href="{{book.Amazon}}"><b>{{book.Book}}</b></a>
         <br />
-          - {{book.Author}}
+          <a target="blank" href="#/authors">- {{book.Author}}</a>
       </div>  
     </div>  
 <!--

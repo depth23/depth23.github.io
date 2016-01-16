@@ -1,4 +1,5 @@
 # Inspaquote
+|Still in progress|Adding media queries|Adding cross-platform compatibillity| 
 
 Live @ depth23.github.io/
 
@@ -8,7 +9,7 @@ Inspaquote is an app to bring classical literature to people in an uplifting and
 
 ###Purpose
 -------------------------------------------
-The problem this solves is it creates an all in one place to get inspiration from classic literature, acts as a portal to information about authors and creates access to purchasing of the books.
+The problem this solves is it creates an all in one place to get inspiration from classic literature, acts as a portal to information about authors and creates access to purchasing of books of interest.
 
 ### User Experience
 -------------------------------------------

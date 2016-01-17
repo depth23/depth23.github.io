@@ -160,7 +160,7 @@ header {
   font-size: 3.5em;
   font-family: 'Tangerine', cursive;
   position: absolute;
-  top: 3em;
+  top: 0em;
   right: 50%;
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
@@ -171,7 +171,7 @@ header {
   height: 2.5em;
   width: 7em;
   position: absolute;
-  top: 13.5em;
+  top: 9.5em;
   left: 50%;
   transform: translate(-50%, 0%);  
   border-top: 1px solid #000000;

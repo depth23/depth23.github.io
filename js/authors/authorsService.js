@@ -23,7 +23,7 @@ app.service('authorsService', function() {
         {
         photo: '//upload.wikimedia.org/wikipedia/commons/thumb/1/13/CharlotteBronte.jpg/220px-CharlotteBronte.jpg',
         first: 'Charlotte',
-        last: 'Bronte',
+        last: 'Bront\353',
         url: 'https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB'
         },
         {
@@ -53,7 +53,7 @@ app.service('authorsService', function() {
         {
         photo: '//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/11exupery-inline1-500.jpg/275px-11exupery-inline1-500.jpg',
         first: 'Antoine de',
-        last: 'Saint-Exupery',
+        last: 'Saint-Exup\351ry',
         url: 'https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry'
         },
         {

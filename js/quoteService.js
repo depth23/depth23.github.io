@@ -15,7 +15,7 @@ var quoteSource = [
         Book: 'Pride and Prejudice',
         Author: 'Jane Austen',
         Quote: '"Vanity and pride are different things, though the words are often used synonymously. A person may be proud without being vain. Pride relates more to our opinion of ourselves, vanity to what we would have others think of us."',
-        Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_7_20?url=search-alias%3Dstripbooks&field-keywords=pride+and+prejudice+jane+austen&sprefix=pride+and+prejudice+jane+austen%2Cstripbooks%2C214'
+        Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_1_34?url=search-alias%3Dstripbooks&field-keywords=pride+and+prejudice+by+jane+austen&sprefix=pride+and+prejudice+by+jane+austen%2Cstripbooks%2C194&rh=n%3A283155%2Ck%3Apride+and+prejudice+by+jane+austen'
     },
     {
         image: '../../img/Jane-Eyre.jpg',
@@ -29,7 +29,7 @@ var quoteSource = [
         Book: 'Les Misrables',
         Author: 'Victor Hugo',
         Quote: '"You who suffer because you love, love still more. To die of love, is to live by it"',
-        Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_7_15?url=search-alias%3Dstripbooks&field-keywords=les+miserables+victor+hugo&sprefix=les+miserables+%2Cstripbooks%2C257'
+        Amazon: 'http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dstripbooks&field-keywords=les+miserables+by+victor+hugo&rh=n%3A283155%2Ck%3Ales+miserables+by+victor+hugo'
     },
     {
         image: '../../img/1984.jpg',
@@ -113,7 +113,7 @@ var quoteSource = [
         Book: 'The Grapes of Wrath',
         Author: 'John Steinbeck',
         Quote: '"And this you can know- fear the time when Manself will not suffer and die for a concept, for this one quality is man, distinctive in the universe."',
-        Amazon: 'http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=the+grapes+of+wrath+john+steinbeck'
+        Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_1_37?url=search-alias%3Dstripbooks&field-keywords=the+grapes+of+wrath+by+john+steinbeck&sprefix=the+grapes+of+wrath+by+john+steinbeck%2Cstripbooks%2C190&rh=n%3A283155%2Ck%3Athe+grapes+of+wrath+by+john+steinbeck'
     },
     {
         image: '../../img/Dracula.jpg',

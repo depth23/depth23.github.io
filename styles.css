@@ -58,7 +58,10 @@ body {
 }
 
 header {
-  border-bottom: 0.11em solid #E3D3B8;
+  height: 10.5em;
+  width: 100%;
+  
+/*  border-bottom: 0.11em solid #E3D3B8;*/
 }
 
 .headerTitle {
@@ -84,6 +87,7 @@ header {
 .nav {
   height: 4em;
   width: 100%;
+  min-width: 83em;
   text-align: center;
 }
 

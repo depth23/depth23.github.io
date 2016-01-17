@@ -323,7 +323,7 @@ header {
     background-size: cover;
   background-position: center center;
     background-repeat: no-repeat; 
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
   overflow: overlay;
 }
 
@@ -340,9 +340,10 @@ header {
 }
 
 .authorImage {
-    height: 14em;
-    width: 9em;
-    border: 0.75em outset #E3D3B8;
+  height: 14em;
+  width: 9em;
+  border: 0.75em outset #E3D3B8;
+  margin-bottom: 2em
 }
 
 .authorImage:hover {
@@ -364,7 +365,7 @@ header {
 .author-name {
   height: 100%;
   width: 100%;
-  font-size: 1.64em;
+  font-size: 1.1em;
   font-family: 'Tangerine', cursive;
   color: white;
   text-align: center;

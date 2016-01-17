@@ -122,6 +122,19 @@ header {
 .backgroundContainer {
   height: 100%;
   width: 100%;
+  background-color: white;
+/*
+  background-image: url('https://c1.staticflickr.com/5/4056/4291142626_30f9e91c80_b.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+*/
+}
+
+.home {
+  height: 100%;
+  width: 100%;
   background-image: url('https://c1.staticflickr.com/5/4056/4291142626_30f9e91c80_b.jpg');
   background-size: cover;
   background-position: center center;

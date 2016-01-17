@@ -184,12 +184,12 @@ header {
   left: 50%;
   transform: translate(-50%, 0%);  
   border-top: 1px solid #000000;
-  background: #02b036;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), to(darkcyan));
-  background: -webkit-linear-gradient(top, white, darkcyan);
-  background: -moz-linear-gradient(top, white, darkcyan);
-  background: -ms-linear-gradient(top, white, darkcyan);
-  background: -o-linear-gradient(top, white, darkcyan);
+  background: #E3D3B8;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -webkit-linear-gradient(top, white, black);
+  background: -moz-linear-gradient(top, white, black);
+  background: -ms-linear-gradient(top, white, black);
+  background: -o-linear-gradient(top, white, black);
   padding: 20px 40px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -213,8 +213,8 @@ header {
 }
 
 .getQuoteButton:active {
-  border-top-color: #218c25;
-  background: #218c25;
+  border-top-color: white;
+  background: white;
 }
 
 .time {

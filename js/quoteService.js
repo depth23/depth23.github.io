@@ -20,7 +20,7 @@ var quoteSource = [
     {
         image: '../../img/Jane-Eyre.jpg',
         Book: 'Jane Eyre',
-        Author: 'Charlotte Bronte',
+        Author: 'Charlotte Bront\353',
         Quote: '"I am no bird; and no net ensnares me: I am a free human being with an independent will."',
         Amazon: 'http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&field-keywords=jayne+eyre+by+charlotte+bronte'
     },
@@ -62,7 +62,7 @@ var quoteSource = [
     {
         image: '../../img/Wuthering-Heights.jpg',
         Book: 'Wuthering Heights',
-        Author: 'Emily Bronte',
+        Author: 'Emily Bront\353',
         Quote: '"Honest people don\'t hide their deeds."',
         Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_2_10?url=search-alias%3Dstripbooks&field-keywords=wuthering+heights+by+emily+bronte&sprefix=wuthering+heights+by+emily+bronte%2Cstripbooks%2C191'
     },
@@ -97,7 +97,7 @@ var quoteSource = [
     {
         image: '../../img/The-Little-Prince.jpg',
         Book: 'The Little Prince',
-        Author: 'Antoine de Saint-Exupery',
+        Author: 'Antoine de Saint-Exup\351ry',
         Quote: '"The most beautiful things in the world cannot be seen or touched, they are felt with the heart."',
         Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_1_20?url=search-alias%3Dstripbooks&field-keywords=the+little+prince+by+antoine+de+saint-exup%C3%A9ry&sprefix=the+little+prince+by+antoine+de+saint-exup%C3%A9ry%2Cstripbooks%2C229'
     },

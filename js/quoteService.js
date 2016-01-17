@@ -48,7 +48,7 @@ var quoteSource = [
     {
         image: '../../img/The-Count-Of-Monte-Cristo.jpg',
         Book: 'The Count of Monte Cristo',
-        Author: 'Alexander Dumas',
+        Author: 'Alexandre Dumas',
         Quote: '"Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it."',
         Amazon: 'http://www.amazon.com/s/ref=nb_sb_ss_i_1_29?url=search-alias%3Dstripbooks&field-keywords=the+count+of+monte+cristo+by+alexandre+dumas&sprefix=the+count+of+monte+cristo+by+alexandre+dumas%2Cstripbooks%2C191'
     },

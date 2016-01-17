@@ -17,7 +17,7 @@ app.service('authorsService', function() {
         {
         photo: '//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Emily_Bront%C3%AB_cropped.jpg/200px-Emily_Bront%C3%AB_cropped.jpg',
         first: 'Emily',
-        last: 'Bronte',
+        last: 'Bront\353',
         url: 'https://en.wikipedia.org/wiki/Emily_Bront%C3%AB'
         },
         {

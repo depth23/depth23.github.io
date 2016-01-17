@@ -197,7 +197,7 @@ header {
   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
   box-shadow: rgba(0,0,0,1) 0 1px 0;
-  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  text-shadow: black 0 1px 0;
   color: white;
   font-size: 3em;
   font-family: 'Tangerine', cursive;
@@ -207,7 +207,6 @@ header {
 }
 
 .getQuoteButton:hover {
-/*  background: #E3D3B8;*/
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(#E3D3B8));
   background: -webkit-linear-gradient(top, black, #E3D3B8);
   background: -moz-linear-gradient(top, black, #E3D3B8);

@@ -62,7 +62,7 @@ header {
   color: #E3D3B8;
   font-size: 50px;
   font-family: 'Tangerine', cursive;
-  text-shadow: 4px 4px rgba(245,233,245,0.51);
+  text-shadow: 0.04em 0.05em rgba(245,233,245,0.51);
   margin-top: -1.25em
 }
 
@@ -88,7 +88,7 @@ header {
     font-size: 3em;
     font-family: 'Tangerine', cursive;
     text-align: center;
-    text-shadow: 3px 3px rgba(245,233,245,0.51);
+    text-shadow: 0.04em 0.05em rgba(245,233,245,0.51);
 }
 
 .navBar:hover {
@@ -453,7 +453,7 @@ header {
     font-family: 'Tangerine', cursive;
     font-size: 75px;
     text-align: center;
-    text-shadow: 4px 4px rgba(245,233,245,0.51);
+    text-shadow: 0.01em 0.04em rgba(0, 0, 0, 9);
     margin-top: 10px;
     padding-top: 50px;
 }

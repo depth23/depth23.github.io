@@ -54,7 +54,7 @@ var quoteSource = [
     },
     {
         image: '../../img/Little-Women.jpg',
-        Book: 'Little Woman',
+        Book: 'Little Women',
         Author: 'Louisa May Alcott',
         Quote: '"I am not afraid of storms, for I am learning how to sail my ship."',
         Amazon: 'http://www.amazon.com/Little-Women-Louisa-May-Alcott/dp/1503280292/ref=sr_1_1?s=books&ie=UTF8&qid=1442962943&sr=1-1&keywords=little+women+by+louisa+may+alcott'

@@ -329,6 +329,7 @@ header {
     color: white;  
     text-align: center;
   margin: -1.2em 0em 0em 0em;
+  overflow: overlay;
 /*    font-size: 30px;*/
 /*    font-family: 'Tangerine', cursive;*/
 }
@@ -510,6 +511,7 @@ header {
     background-repeat: no-repeat; 
     background-attachment: fixed;
   margin: -1.22em 0em 0em 0em;
+  overflow: overlay;
 }
 
 .contact-us-container {

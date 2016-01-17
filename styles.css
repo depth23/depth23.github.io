@@ -208,11 +208,11 @@ header {
 
 .getQuoteButton:hover {
 /*  background: #E3D3B8;*/
-  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#E3D3B8));
-  background: -webkit-linear-gradient(top, white, #E3D3B8);
-  background: -moz-linear-gradient(top, white, #E3D3B8);
-  background: -ms-linear-gradient(top, white, #E3D3B8);
-  background: -o-linear-gradient(top, white, #E3D3B8);
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#E3D3B8));
+  background: -webkit-linear-gradient(top, black, #E3D3B8);
+  background: -moz-linear-gradient(top, black, #E3D3B8);
+  background: -ms-linear-gradient(top, black, #E3D3B8);
+  background: -o-linear-gradient(top, black, #E3D3B8);
   -webkit-box-shadow: white 0 1px 0;
   -moz-box-shadow: white 0 1px 0;
   box-shadow: white 0 1px 0;

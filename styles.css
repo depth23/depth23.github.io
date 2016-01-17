@@ -24,8 +24,9 @@ body {
 }
 
 .fa:hover {
-    color: darkcyan;
+    color: black;
     background: none;
+  text-shadow: 0em 0em 0.5em white;
 }
 
 .fa:active {
@@ -106,7 +107,9 @@ header {
 
 .navBar:hover {
   background: none;
-  color: darkcyan;
+  color: black;
+      text-shadow: 0.03em 0.03em 0em #E3D3B8;
+
 }
 
 .navBar:active {
@@ -244,15 +247,16 @@ header {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: gray;
+        color: #E3D3B8;
     font-size: 3em;
     font-family: 'Tangerine', cursive;
     align-content: center;
 }
 
 .footerItem:hover {
-    background: black;
-    color: darkcyan;
+    background: none;
+    color: black;
+  text-shadow: 0.03em 0.03em 0em #E3D3B8;
 }
 
 .footerItem:active {

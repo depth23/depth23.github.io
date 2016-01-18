@@ -61,8 +61,6 @@ body {
 header {
   height: 10.5em;
   width: 100%;
-  
-/*  border-bottom: 0.11em solid #E3D3B8;*/
 }
 
 .headerTitle {
@@ -77,12 +75,12 @@ header {
 }
 
 .header-bottom {
-    height: 1em;
+  height: 1em;
   width: 100%;
   min-width: 83em;
-    background: black;
+  background: black;
   border-top: 0.11em solid #E3D3B8;
-    border-bottom: 0.55em solid #E3D3B8;
+  border-bottom: 0.55em solid #E3D3B8;
 }
 
 .nav {
@@ -93,23 +91,22 @@ header {
 }
 
 .navBar {
-    height: 100%;
-    width: 3.9em;
+  height: 100%;
+  width: 3.9em;
   position: relative;
   top: -0.6em;
-    display: inline-block;
-    color: #E3D3B8;
-    font-size: 3em;
-    font-family: 'Tangerine', cursive;
-    text-align: center;
-    text-shadow: 0.04em 0.05em rgba(245,233,245,0.51);
+  display: inline-block;
+  color: #E3D3B8;
+  font-size: 3em;
+  font-family: 'Tangerine', cursive;
+  text-align: center;
+  text-shadow: 0.04em 0.05em rgba(245,233,245,0.51);
 }
 
 .navBar:hover {
   background: none;
   color: black;
-      text-shadow: 0.03em 0.03em 0em #E3D3B8;
-
+  text-shadow: 0.03em 0.03em 0em #E3D3B8;
 }
 
 .navBar:active {
@@ -148,7 +145,6 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
-/*  background-attachment: fixed;*/
   overflow: overlay;
 }
 
@@ -202,7 +198,6 @@ header {
   font-size: 3em;
   font-family: 'Tangerine', cursive;
   text-decoration: none;
-/*  vertical-align: middle;*/
   opacity: .85;
 }
 
@@ -239,37 +234,37 @@ header {
 }
 
 .footer {
-    height: 11em;
-    width: 100%;
-    display: block;
-    background: black;
-    text-decoration: none;
-    border-top: 2px solid #E3D3B8;
+  height: 11em;
+  width: 100%;
+  display: block;
+  background: black;
+  text-decoration: none;
+  border-top: 2px solid #E3D3B8;
 }
 
 .footerItem {
-    height: 1.5em;
-    width: 49%;
+  height: 1.5em;
+  width: 49%;
   position: relative;
   top: -0.4em;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-        color: #E3D3B8;
-    font-size: 3em;
-    font-family: 'Tangerine', cursive;
-    align-content: center;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #E3D3B8;
+  font-size: 3em;
+  font-family: 'Tangerine', cursive;
+  align-content: center;
 }
 
 .footerItem:hover {
-    background: none;
-    color: black;
+  background: none;
+  color: black;
   text-shadow: 0.03em 0.03em 0em #E3D3B8;
 }
 
 .footerItem:active {
-    color: white;
-    background: black;
+  color: white;
+  background: black;
 }
 
 .footerLinks {
@@ -302,20 +297,13 @@ header {
   position: absolute;
   bottom: 3em;
   left: 50%;
-/*
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-*/
   background-color: #fff;
-/*  box-shadow: 4px 4px 80px #000;*/
 }
 
 .ng-modal-close {
   position: absolute;
   top: 0em;
   right: 0.2em;
-/*    padding: 5px;*/
   cursor: pointer;
   font-size: 1em;
   display: inline-block;
@@ -324,7 +312,6 @@ header {
 }
 
 .ng-modal-dialog-content {
-/*    padding:0.5em;*/
   text-align: center;
 }
 
@@ -332,18 +319,16 @@ header {
 /*-------------*/
 
 .aboutUs {
-    height: 100%;
-    background: black;
-    background-image: url(http://static.tumblr.com/bf4c92b6b9b217d3cf76e8ca51aefc00/xyrewae/rCRmvhg5w/tumblr_static_library-background4.jpg);   
-    background-size: 100% 100%; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    color: white;  
-    text-align: center;
+  height: 100%;
+  background: black;
+  background-image: url(http://static.tumblr.com/bf4c92b6b9b217d3cf76e8ca51aefc00/xyrewae/rCRmvhg5w/tumblr_static_library-background4.jpg);   
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  color: white;  
+  text-align: center;
   margin: -1.2em 0em 0em 0em;
   overflow: overlay;
-/*    font-size: 30px;*/
-/*    font-family: 'Tangerine', cursive;*/
 }
 
 .about-us-text {
@@ -359,25 +344,24 @@ header {
 /*============*/
 
 .authors {
-    height: 100%;
-    background: black;
-    background-image: url(http://darkrenaissance.com/wp-content/uploads/2013/04/drbimage.jpg);
-    background-size: cover;
+  height: 100%;
+  background: black;
+  background-image: url(http://darkrenaissance.com/wp-content/uploads/2013/04/drbimage.jpg);
+  background-size: cover;
   background-position: center center;
-    background-repeat: no-repeat; 
-/*    background-attachment: fixed;*/
+  background-repeat: no-repeat; 
   overflow: overlay;
 }
 
 .authorsItem {
-    height: 14em;
-    width: 9em;
-    display:flex;
-    flex-direction: column;
-    margin: 5em 2em;
-    -webkit-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
-    -moz-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
-    box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+  height: 14em;
+  width: 9em;
+  display:flex;
+  flex-direction: column;
+  margin: 5em 2em;
+  -webkit-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+  -moz-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
+  box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
   margin: 2em 3em 13em 3em;
 }
 
@@ -389,19 +373,19 @@ header {
 }
 
 .authorImage:hover {
-    color: darkcyan;
-    background: none;
-    height: 14.25em;
-    width: 9.25em;
-    opacity: .50;
+  color: darkcyan;
+  background: none;
+  height: 14.25em;
+  width: 9.25em;
+  opacity: .50;
 }
 
 .authorImage:active {
-    color: white;
-    background: none;
-    height: 14.5em;
-    width: 9.5em;
-    opacity: .80;
+  color: white;
+  background: none;
+  height: 14.5em;
+  width: 9.5em;
+  opacity: .80;
 }
 
 .author-name {
@@ -418,16 +402,14 @@ header {
 /*-------------*/
 
 .classics {
-    height: 100%;
+  height: 100%;
   width: 100%;
-    background: black;
-    background-image: url(http://i01.i.aliimg.com/wsphoto/v0/2048175971/8x12FT-Backdrop-Customize-Photography-Studio-Background-Curtain-Book-Shelf-Cupboard-Wedding-Portrait-Carpet-Wooden-Floor-Vinyl.jpg);
-    background-size: 100% 141%;
+  background: black;
+  background-image: url(http://i01.i.aliimg.com/wsphoto/v0/2048175971/8x12FT-Backdrop-Customize-Photography-Studio-Background-Curtain-Book-Shelf-Cupboard-Wedding-Portrait-Carpet-Wooden-Floor-Vinyl.jpg);
+  background-size: 100% 141%;
   background-position: 0% 5%;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   overflow: overlay;
-/*    background-attachment: fixed;*/
-/*    align-content: center;*/
 }
 
 .classicsContainer {
@@ -435,112 +417,106 @@ header {
   width: 50%;
   position: relative;
   margin: 0 auto;
-  
 }
 
 .classicsItem {
   height: 4em;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 2em 2em 3em 2em;
-    font-size: 4em;
-    font-family: 'Tangerine', cursive;
-    text-align: right;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 2em 2em 3em 2em;
+  font-size: 4em;
+  font-family: 'Tangerine', cursive;
+  text-align: right;
 }
 
 .bookImage {
-    height: 4em;
-    width: 3em;
+  height: 4em;
+  width: 3em;
 }
 
 .bookImage:hover {
-    height: 5em;
-    width: 4em;
-    color: darkcyan;
-    background: black;
-    opacity: .50;
+  height: 5em;
+  width: 4em;
+  color: darkcyan;
+  background: black;
+  opacity: .50;
 }
 
 .bookImage:active {
-    height: 4em;
-    width: 3em;
-    color: white;
-    background: black;
-    opacity: .85;
+  height: 4em;
+  width: 3em;
+  color: white;
+  background: black;
+  opacity: .85;
 }
 
 /*Quotes Page*/
 /*___________*/
 
 .quotes {
-    height: 100%;
-    background: black;
-    background-image: url(http://favim.com/orig/201108/19/book-shelves-books-dark-grain-library-Favim.com-126359.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-/*    background-attachment: fixed;*/
+  height: 100%;
+  background: black;
+  background-image: url(http://favim.com/orig/201108/19/book-shelves-books-dark-grain-library-Favim.com-126359.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
   background-position: center;
-    color: white;
-    
+  color: white;
   overflow: overlay;
   margin: -0.6em 0em 0em 0em;
 }
 
 .title {
   width: 100%;
-    color: white;
-    font-family: 'Tangerine', cursive;
-    font-size: 75px;
-    text-align: center;
-    text-shadow: 0.01em 0.04em rgba(0, 0, 0, 9);
-    margin-top: 10px;
-    padding-top: 50px;
+  color: white;
+  font-family: 'Tangerine', cursive;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: 0.01em 0.04em rgba(0, 0, 0, 9);
+  margin-top: 10px;
+  padding-top: 50px;
 }
 
 .quoteText {
   width: 95%;
   font-family: 'Tangerine', cursive;
-    font-size: 3em;
-    text-align: center;
+  font-size: 3em;
   text-align: center;
-    margin: 0 auto;
-    text-shadow: 2px 2px black;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 2px 2px black;
 }
 
 /*Contact Us Page*/
 /*---------------*/
 
 .contactUs {
-    height: 100%;
+  height: 100%;
   width: 100%;
-    background: black;
-    background-image: url(http://knowledgelost.files.wordpress.com/2011/07/cimg0491-oldbooks-02-q75-1932x1089.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+  background: black;
+  background-image: url(http://knowledgelost.files.wordpress.com/2011/07/cimg0491-oldbooks-02-q75-1932x1089.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   margin: -1.22em 0em 0em 0em;
   overflow: overlay;
 }
 
 .contact-us-container {
   height: 100%;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .outerForm {
-    height: 36em;
-    width: 50em;
-    background: black;
-    opacity: .85;
-/*    display: flex;*/
-/*    justify-content: center;*/
-    position: relative;
-   margin: 0 auto;
+  height: 36em;
+  width: 50em;
+  background: black;
+  opacity: .85;
+  position: relative;
+  margin: 0 auto;
   top: 0em;
   border: 0.5em solid #E3D3B8;
 }
@@ -551,12 +527,11 @@ header {
   position: relative;
   top: 46%;
   transform: translate(0%, -50%);
-    font-family: 'Tangerine', cursive;
-    font-size: 1.8em;
-    background: #E3D3B8;
-    display: block;
-    margin: 0 auto;
-  
+  font-family: 'Tangerine', cursive;
+  font-size: 1.8em;
+  background: #E3D3B8;
+  display: block;
+  margin: 0 auto;
 }
 
 .inner-form-text-container {
@@ -574,7 +549,6 @@ header {
 .innerFormElement {
   display: block;
   margin: 0 auto;
-  
 }
 
 .formSubmit {
@@ -586,30 +560,30 @@ header {
 /*---*/
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 .wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }

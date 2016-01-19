@@ -15,7 +15,7 @@ html {
 body {
     height: 100vh;
     width:100vw;
-    background: black; 
+    background: black;
 }
 
 .fa {
@@ -24,23 +24,23 @@ body {
 }
 
 .fa:hover {
-    color: black;
-    background: none;
+  color: black;
+  background: none;
   text-shadow: 0em 0em 0.5em white;
 }
 
 .fa:active {
-    color: white;
-    background: none;
+  color: white;
+  background: none;
 }
 
 .container {
-    height: 88vh;
-    width: 100vw;
+  height: 88vh;
+  width: 100vw;
 }
 
 .wrap {
-    padding-top: 170px;
+  padding-top: 170px;
 }
 
 .width80 {
@@ -167,6 +167,8 @@ header {
   position: absolute;
   top: 0em;
   right: 50%;
+  -webkit-transform: translate(50%, 0%);
+  -ms-transform: translate(50%, 0%);
   transform: translate(50%, 0%);
   text-shadow: .05em .05em black;
   line-height: 135%;
@@ -178,20 +180,16 @@ header {
   position: absolute;
   top: 9.5em;
   left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);  
   border-top: 1px solid #000000;
   background: #E3D3B8;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
   background: -webkit-linear-gradient(top, white, black);
-  background: -moz-linear-gradient(top, white, black);
-  background: -ms-linear-gradient(top, white, black);
   background: -o-linear-gradient(top, white, black);
   padding: 20px 40px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
   border-radius: 0px;
-  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
   box-shadow: rgba(0,0,0,1) 0 1px 0;
   text-shadow: black 0.04em 0.04em 0em;
   color: white;
@@ -204,11 +202,7 @@ header {
 .getQuoteButton:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(#E3D3B8));
   background: -webkit-linear-gradient(top, black, #E3D3B8);
-  background: -moz-linear-gradient(top, black, #E3D3B8);
-  background: -ms-linear-gradient(top, black, #E3D3B8);
   background: -o-linear-gradient(top, black, #E3D3B8);
-  -webkit-box-shadow: white 0 1px 0;
-  -moz-box-shadow: white 0 1px 0;
   box-shadow: white 0 1px 0;
   text-shadow: white 0.03em 0.03em 0em;
   color: black;
@@ -226,6 +220,8 @@ header {
   position: relative;
   top: 12.25em;
   left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
   text-align: center;
   font-family: 'Tangerine', cursive;
@@ -253,6 +249,8 @@ header {
   color: #E3D3B8;
   font-size: 3em;
   font-family: 'Tangerine', cursive;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
 }
 
@@ -356,11 +354,16 @@ header {
 .authorsItem {
   height: 14em;
   width: 9em;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
   display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: 5em 2em;
-  -webkit-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
-  -moz-box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
   box-shadow: 0em 0em 1em 1.5em rgba(245,233,245,0.51);
   margin: 2em 3em 13em 3em;
 }
@@ -423,9 +426,21 @@ header {
   height: 4em;
   width: 100%;
   color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 2em 2em 3em 2em;
   font-size: 4em;
@@ -526,6 +541,8 @@ header {
   width: 75%;
   position: relative;
   top: 46%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
   font-family: 'Tangerine', cursive;
   font-size: 1.8em;
@@ -560,30 +577,53 @@ header {
 /*---*/
 
 .flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .flex-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .justify-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .justify-space-around {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
 .justify-space-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .align-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
